@@ -21,11 +21,11 @@ class Account:
 
 
     def get_balance(self):
-        return f'{self.account_balance}'
+        return self.account_balance
 
 
 
     def get_name(self):
-        return f'{self.account_name}'
-    
+        return self.account_name
+
 
